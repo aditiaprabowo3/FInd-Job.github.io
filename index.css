@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar ul li {
+    padding: 0 15px;
+}
+.navbar {
+    padding: 15px 0 !important; 
+}
+.navbar ul li a {
+    font-weight: 600;
+    color: #000 !important;
+}
+.card-category:hover {
+    background-color: #f7b42c;
+    background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+    color: #fff;
+}
+.card-category:hover i {
+    background-color: #FFF0ED !important;
+    color: #fc575e !important;
+}
+.card-category:hover {
+    box-shadow: 0 0 30px #ff8b91 !important;
+}
+.card-job:hover {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.125) !important;
+}
+.card-job {
+    margin: 20px 0;
+    transition: all.7s;
+}
+.card-testi:hover {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.125) !important;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+    font-weight: 500;
+}
+footer ul li {
+    padding-bottom: 17px;
+    list-style: none;
+    margin-left: -30px;
+}
+footer h5 {
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+.navbar.putih {
+    background-color: #fff !important;
+}
+
+/* breakpoint */
+@media (min-width: 300px) {
+    .navbar .bt-2 {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    } 
+    .section-banner .text-content h1 {
+        font-size: 35px;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+        display: none;
+    }
+    .section-banner .text-content {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .section-banner button {
+        margin-left: 0;
+    }
+    .section-category {
+        margin-top: 100px;
+    }
+    .section-sponsor img {
+        width: 46%;
+        height: 46%;
+        margin: 10px 0px;
+    }
+}
+/* hp */
+@media (min-width: 400px) {
+    .navbar .bt-2 {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    } 
+    .section-banner .text-content h1 {
+        font-size: 50px;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+        display: none;
+    }
+    .section-banner .text-content {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .section-banner button {
+        margin-left: 0;
+    }
+    .section-category {
+        margin-top: 100px;
+    }
+    .section-sponsor img {
+        width: 35%;
+        height: 35%;
+        margin: 10px;
+    }
+}
+/* tablet */
+@media (min-width: 777px) {
+    .navbar .bt-2 {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    } 
+    .section-banner .text-content h1 {
+        font-size: 50px;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+        display: block;
+    }
+    .section-banner .text-content {
+        padding-top: 20px;
+        text-align: left;
+    }
+    .section-banner button {
+        margin-left: 0;
+    }
+    .section-category {
+        margin-top: 800px;
+    }
+    .section-sponsor img {
+        width: 25%;
+        height: 25%;
+        margin: 20px 10px;
+    }
+}
+/* desktop */
+@media (min-width: 900px) {
+    .navbar .bt-2 {
+        margin-right: 20px;
+        margin-bottom: 0px;
+    } 
+    .section-banner .text-content h1 {
+        font-size: 50px;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-left: -30px;
+        margin-top: 30px;
+        display: block;
+    }
+    .section-banner .text-content {
+        padding-top: 20px;
+        text-align: left;
+    }
+    .section-banner button {
+        margin-left: 20px;
+    }
+    .section-category {
+        margin-top: 100px;
+    }
+    .section-sponsor img {
+        width: 20%;
+        height: 20%;
+        margin: 20px 10px;
+    }
+}
+/* pc */
+@media (min-width: 1200px) {
+    .navbar .bt-2 {
+        margin-right: 20px;
+        margin-bottom: 0px;
+    } 
+    .section-banner .text-content h1 {
+        font-size: 50px;
+    }
+    .section-banner .img-content img {
+        width: 90%;
+        height: 90%;
+        margin-left: -30px;
+        margin-top: 0;
+    }
+    .section-banner .text-content {
+        padding-top: 20px;
+        text-align: left;
+    }
+    .section-banner button {
+        margin-left: 20px;
+    }
+    .section-category {
+        margin-top: 100px;
+    }
+    .section-sponsor img {
+        width: 16%;
+        height: 16%;
+        margin: 20px;
+    }
+}
